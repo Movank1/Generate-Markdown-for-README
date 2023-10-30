@@ -23,3 +23,15 @@ WHEN I enter my email address
 THEN this is added to the section of the README entitled Questions, with detail on how to reach me with additional questions or suggestion 
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README#
+
+# HOW TO RUN
+
+cd ~/Destktop
+
+git clone git@github.com:Movank1/Generate-Markdown-for-README.git
+
+cd Generate-Markdown-for-README
+
+git install
+
+node index.js
